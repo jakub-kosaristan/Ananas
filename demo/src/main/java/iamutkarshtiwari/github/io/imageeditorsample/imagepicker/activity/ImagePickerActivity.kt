@@ -103,7 +103,10 @@ class ImagePickerActivity : ParentActivity(R.layout.activity_main) {
     }
 
     private fun chooseImage() {
-        startActivityForResult(getPickImageIntent(), RES_IMAGE)
+        var intent: Intent? = getPickImageIntent()
+        if (intent != null) {
+            startActivityForResult(intent, RES_IMAGE)
+        }
     }
 
     private fun getPickImageIntent(): Intent? {
