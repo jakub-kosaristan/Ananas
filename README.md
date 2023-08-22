@@ -1,10 +1,10 @@
 <img align="left" src="art/ananas.png" width="100" height="100" />
 
-# Ananas Photo Editor
+# AnanasImageEditorFork, a fork of Ananas Photo Editor
 
-[![Download](https://img.shields.io/badge/JitPack-1.2.6-blue.svg)](https://jitpack.io/#LBAteam/AnanasImageEditorFork/1.2.6) ![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg)
+[![Download](https://img.shields.io/badge/JitPack-1.0.0-blue.svg)](https://jitpack.io/#LBAteam/AnanasImageEditorFork/1.0.0) ![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg)
 
-An easy photo editor integration for your Android apps.
+An easy photo editor integration for your Android apps. Forked to this repository to get it running on Android 13+ (API 33+) because the original repository got archived by the author.
 
 ## Features
 
@@ -63,7 +63,7 @@ Add it in your root build.gradle at the end of repositories:
 
 Add the dependency in gradle file of app module like this
 ```
-implementation 'com.github.iamutkarshtiwari:Ananas:1.2.6'
+implementation 'com.github.LBAteam:AnanasImageEditorFork:v1.0.0'
 ```
 
 ## [Important!]
