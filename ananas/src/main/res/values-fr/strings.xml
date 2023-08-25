@@ -24,7 +24,6 @@
     <string name="iamutkarshtiwari_github_io_ananas_input_hint">Texte de saisie …</string>
 
     <string name="iamutkarshtiwari_github_io_ananas_not_selected">Veuillez choisir une image à modifier</string>
-    <string name="iamutkarshtiwari_github_io_ananas_auto_newline">Nouvelle ligne automatique</string>
     <string name="iamutkarshtiwari_github_io_ananas_save_error">Enregistrer l\'erreur!</string>
     <string name="iamutkarshtiwari_github_io_ananas_load_error">Échec du chargement de l\'image!</string>
     <string name="iamutkarshtiwari_github_io_ananas_loading">Chargement…</string>
@@ -33,10 +32,6 @@
     <string name="iamutkarshtiwari_github_io_ananas_free_size">LIBRE</string>
     <string name="iamutkarshtiwari_github_io_ananas_fit_image">ORIGINAL</string>
     <string name="iamutkarshtiwari_github_io_ananas_square">CARRÉE</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio3_4">3:4</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio4_3">4:3</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio9_16">9:16</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio16_9">16:9</string>
 
     <string-array name="iamutkarshtiwari_github_io_ananas_filters">
         <item>Origine</item>

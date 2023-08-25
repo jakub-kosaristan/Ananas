@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 # Released
 
+## [AnanasImageEditorFork 1.1.0]
+- Translated the strings to BG, DE, IT, PT, RU and corrected some of the EN strings
+
 ## [AnanasImageEditorFork 1.0.0]
 - Increased targetSdk to 33
 - targetSdk 33: Permission READ_MEDIA_IMAGES used instead of READ_EXTERNAL_STORAGE, which is deprecated 

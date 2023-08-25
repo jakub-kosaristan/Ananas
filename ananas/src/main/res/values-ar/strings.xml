@@ -24,7 +24,6 @@
     <string name="iamutkarshtiwari_github_io_ananas_input_hint">أدخل نصآ…</string>
 
     <string name="iamutkarshtiwari_github_io_ananas_not_selected">الرجاء اختيار صورة للتحرير</string>
-    <string name="iamutkarshtiwari_github_io_ananas_auto_newline">خط جديد تلقائي</string>
     <string name="iamutkarshtiwari_github_io_ananas_save_error">حفظ الخطأ</string>
     <string name="iamutkarshtiwari_github_io_ananas_load_error">فشل تحميل الصورة!</string>
     <string name="iamutkarshtiwari_github_io_ananas_loading">جار التحميل…</string>
@@ -33,10 +32,6 @@
     <string name="iamutkarshtiwari_github_io_ananas_free_size">مجانا</string>
     <string name="iamutkarshtiwari_github_io_ananas_fit_image">أصلي</string>
     <string name="iamutkarshtiwari_github_io_ananas_square">ميدان</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio3_4">3:4</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio4_3">4:3</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio9_16">9:16</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio16_9">16:9</string>
 
     <string-array name="iamutkarshtiwari_github_io_ananas_filters">
         <item>الأصل</item>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="iamutkarshtiwari_github_io_ananas_library_name">Editor di foto</string>
+    <string name="iamutkarshtiwari_github_io_ananas_no_images">Nessuna immagine trovata</string>
+    <string name="iamutkarshtiwari_github_io_ananas_images">%d immagini</string>
+    <string name="iamutkarshtiwari_github_io_ananas_done">FATTO</string>
+    <string name="iamutkarshtiwari_github_io_ananas_apply">APPLICARE</string>
+    <string name="iamutkarshtiwari_github_io_ananas_stickers">Adesivi</string>
+    <string name="iamutkarshtiwari_github_io_ananas_filter">Filtri</string>
+    <string name="iamutkarshtiwari_github_io_ananas_crop">Ritaglia</string>
+    <string name="iamutkarshtiwari_github_io_ananas_rotate">Ruota</string>
+    <string name="iamutkarshtiwari_github_io_ananas_text">Testo</string>
+    <string name="iamutkarshtiwari_github_io_ananas_brush">Pennello</string>
+    <string name="iamutkarshtiwari_github_io_ananas_eraser">Gomma per cancellare</string>
+    <string name="iamutkarshtiwari_github_io_ananas_edit">Modificare</string>
+    <string name="iamutkarshtiwari_github_io_ananas_brightness">Luminosità</string>
+    <string name="iamutkarshtiwari_github_io_ananas_saturation">Saturazione</string>
+    <string name="iamutkarshtiwari_github_io_ananas_size">Dimensione</string>
+    <string name="iamutkarshtiwari_github_io_ananas_opacity">Opacità</string>
+    <string name="materialcolorpicker__errHex">Formato codice esadecimale errato</string>
+    <string name="materialcolorpicker__btnSelectColor">Selezionare</string>
+    <string name="iamutkarshtiwari_github_io_ananas_saving_image">Salvataggio…</string>
+    <string name="iamutkarshtiwari_github_io_ananas_input_hint">Inserire il testo…</string>
+    <string name="iamutkarshtiwari_github_io_ananas_not_selected">Scegli un\'immagine da modificare</string>
+    <string name="iamutkarshtiwari_github_io_ananas_save_error">Errore durante il salvataggio!</string>
+    <string name="iamutkarshtiwari_github_io_ananas_load_error">Impossibile caricare l\'immagine!</string>
+    <string name="iamutkarshtiwari_github_io_ananas_loading">Caricamento…</string>
+    <string name="iamutkarshtiwari_github_io_ananas_pick_a_color">Scegli un colore</string>
+    <string name="iamutkarshtiwari_github_io_ananas_free_size">LIBERO</string>
+    <string name="iamutkarshtiwari_github_io_ananas_fit_image">ORIGINALE</string>
+    <string name="iamutkarshtiwari_github_io_ananas_square">QUADRATO</string>
+    <string name="iamutkarshtiwari_github_io_ananas_more">Più</string>
+    <string name="iamutkarshtiwari_github_io_ananas_exit_without_save">L\'immagine modificata non è stata salvata. Vuoi uscire?</string>
+    <string name="iamutkarshtiwari_github_io_ananas_confirm">Confermare</string>
+    <string name="iamutkarshtiwari_github_io_ananas_cancel">Annulla</string>
+    <string name="iamutkarshtiwari_github_io_ananas_beauty">Bellezza</string>
+    <string name="iamutkarshtiwari_github_io_ananas_smooth">Levigatezza</string>
+    <string name="iamutkarshtiwari_github_io_ananas_white_skin">Il tono della pelle</string>
+</resources>

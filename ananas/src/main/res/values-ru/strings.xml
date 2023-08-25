@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="iamutkarshtiwari_github_io_ananas_library_name">Редактор фото</string>
+    <string name="iamutkarshtiwari_github_io_ananas_no_images">Изображение не найдено</string>
+    <string name="iamutkarshtiwari_github_io_ananas_images">%d изображений</string>
+    <string name="iamutkarshtiwari_github_io_ananas_done">ГОТОВ</string>
+    <string name="iamutkarshtiwari_github_io_ananas_apply">ПРИМЕНИТЬ</string>
+    <string name="iamutkarshtiwari_github_io_ananas_stickers">Наклейки</string>
+    <string name="iamutkarshtiwari_github_io_ananas_filter">Фильтры</string>
+    <string name="iamutkarshtiwari_github_io_ananas_crop">Обрезать</string>
+    <string name="iamutkarshtiwari_github_io_ananas_rotate">Повернуть</string>
+    <string name="iamutkarshtiwari_github_io_ananas_text">Текст</string>
+    <string name="iamutkarshtiwari_github_io_ananas_brush">Кисть</string>
+    <string name="iamutkarshtiwari_github_io_ananas_eraser">Резинка</string>
+    <string name="iamutkarshtiwari_github_io_ananas_edit">Редактировать</string>
+    <string name="iamutkarshtiwari_github_io_ananas_brightness">Яркость</string>
+    <string name="iamutkarshtiwari_github_io_ananas_saturation">Насыщенность</string>
+    <string name="iamutkarshtiwari_github_io_ananas_size">Размер</string>
+    <string name="iamutkarshtiwari_github_io_ananas_opacity">Непрозрачность</string>
+    <string name="materialcolorpicker__errHex">Неверный формат шестнадцатеричного кода</string>
+    <string name="materialcolorpicker__btnSelectColor">Выбирать</string>
+    <string name="iamutkarshtiwari_github_io_ananas_saving_image">Сохранение…</string>
+    <string name="iamutkarshtiwari_github_io_ananas_input_hint">Введите текст…</string>
+    <string name="iamutkarshtiwari_github_io_ananas_not_selected">Пожалуйста, выберите изображение для редактирования</string>
+    <string name="iamutkarshtiwari_github_io_ananas_save_error">Ошибка при сохранении!</string>
+    <string name="iamutkarshtiwari_github_io_ananas_load_error">Не удалось загрузить изображение!</string>
+    <string name="iamutkarshtiwari_github_io_ananas_loading">Загрузка…</string>
+    <string name="iamutkarshtiwari_github_io_ananas_pick_a_color">Выбери цвет</string>
+    <string name="iamutkarshtiwari_github_io_ananas_free_size">СВОБОДНО</string>
+    <string name="iamutkarshtiwari_github_io_ananas_fit_image">ОРИГИНАЛ</string>
+    <string name="iamutkarshtiwari_github_io_ananas_square">КВАДРАТ</string>
+    <string name="iamutkarshtiwari_github_io_ananas_more">Ещё</string>
+    <string name="iamutkarshtiwari_github_io_ananas_exit_without_save">Отредактированное изображение не было сохранено. Вы хотите выйти?</string>
+    <string name="iamutkarshtiwari_github_io_ananas_confirm">Подтверждение</string>
+    <string name="iamutkarshtiwari_github_io_ananas_cancel">Отменить</string>
+    <string name="iamutkarshtiwari_github_io_ananas_beauty">Красота</string>
+    <string name="iamutkarshtiwari_github_io_ananas_smooth">Гладкость</string>
+    <string name="iamutkarshtiwari_github_io_ananas_white_skin">Оттенок кожи</string>
+</resources>

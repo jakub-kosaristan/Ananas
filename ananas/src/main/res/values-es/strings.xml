@@ -25,7 +25,6 @@
     <string name="iamutkarshtiwari_github_io_ananas_input_hint">Campo de Texto ...</string>
 
     <string name="iamutkarshtiwari_github_io_ananas_not_selected">Porfavor elija una imagen para editar</string>
-    <string name="iamutkarshtiwari_github_io_ananas_auto_newline">NuevaLineaAuto.</string>
     <string name="iamutkarshtiwari_github_io_ananas_save_error">Error en guardado!</string>
     <string name="iamutkarshtiwari_github_io_ananas_load_error">Fallo la carga de imagen!</string>
     <string name="iamutkarshtiwari_github_io_ananas_loading">Cargando...</string>
@@ -34,10 +33,6 @@
     <string name="iamutkarshtiwari_github_io_ananas_free_size">LIBRE</string>
     <string name="iamutkarshtiwari_github_io_ananas_fit_image">ORIGINAL</string>
     <string name="iamutkarshtiwari_github_io_ananas_square">CUADRADO</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio3_4">3:4</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio4_3">4:3</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio9_16">9:16</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio16_9">16:9</string>
 
     <string-array name="iamutkarshtiwari_github_io_ananas_filters">
         <item>Original</item>

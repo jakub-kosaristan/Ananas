@@ -10,7 +10,7 @@
     <string name="iamutkarshtiwari_github_io_ananas_crop">Crop</string>
     <string name="iamutkarshtiwari_github_io_ananas_rotate">Rotate</string>
     <string name="iamutkarshtiwari_github_io_ananas_text">Text</string>
-    <string name="iamutkarshtiwari_github_io_ananas_brush">Brush</string>
+    <string name="iamutkarshtiwari_github_io_ananas_brush">Paintbrush</string>
     <string name="iamutkarshtiwari_github_io_ananas_eraser">Eraser</string>
     <string name="iamutkarshtiwari_github_io_ananas_edit">Edit</string>
     <string name="iamutkarshtiwari_github_io_ananas_brightness">Brightness</string>
@@ -21,11 +21,11 @@
     <string name="materialcolorpicker__errHex">Hex Code Format incorrect</string>
     <string name="materialcolorpicker__btnSelectColor">Select</string>
     <string name="iamutkarshtiwari_github_io_ananas_saving_image">Saving…</string>
-    <string name="iamutkarshtiwari_github_io_ananas_input_hint">Input Text …</string>
+    <string name="iamutkarshtiwari_github_io_ananas_input_hint">Enter text…</string>
 
-    <string name="iamutkarshtiwari_github_io_ananas_not_selected">Please choose an image for edit</string>
-    <string name="iamutkarshtiwari_github_io_ananas_auto_newline">AutoNewline</string>
-    <string name="iamutkarshtiwari_github_io_ananas_save_error">Save error!</string>
+    <string name="iamutkarshtiwari_github_io_ananas_not_selected">Please choose an image to edit</string>
+    <string name="iamutkarshtiwari_github_io_ananas_auto_newline" translatable="false">AutoNewline</string>
+    <string name="iamutkarshtiwari_github_io_ananas_save_error">Error while saving!</string>
     <string name="iamutkarshtiwari_github_io_ananas_load_error">Failed to load the image!</string>
     <string name="iamutkarshtiwari_github_io_ananas_loading">Loading…</string>
     <string name="iamutkarshtiwari_github_io_ananas_pick_a_color">Pick a color</string>
@@ -33,10 +33,10 @@
     <string name="iamutkarshtiwari_github_io_ananas_free_size">FREE</string>
     <string name="iamutkarshtiwari_github_io_ananas_fit_image">ORIGINAL</string>
     <string name="iamutkarshtiwari_github_io_ananas_square">SQUARE</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio3_4">3:4</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio4_3">4:3</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio9_16">9:16</string>
-    <string name="iamutkarshtiwari_github_io_ananas_ratio16_9">16:9</string>
+    <string name="iamutkarshtiwari_github_io_ananas_ratio3_4" translatable="false">3:4</string>
+    <string name="iamutkarshtiwari_github_io_ananas_ratio4_3" translatable="false">4:3</string>
+    <string name="iamutkarshtiwari_github_io_ananas_ratio9_16" translatable="false">9:16</string>
+    <string name="iamutkarshtiwari_github_io_ananas_ratio16_9" translatable="false">16:9</string>
 
     <string-array name="iamutkarshtiwari_github_io_ananas_filters">
         <item>Origin</item>
@@ -96,7 +96,7 @@
     </integer-array>
 
     <string name="iamutkarshtiwari_github_io_ananas_more">More</string>
-    <string name="iamutkarshtiwari_github_io_ananas_exit_without_save">The edited image is not saved. Do you want to exit? </string>
+    <string name="iamutkarshtiwari_github_io_ananas_exit_without_save">The edited image has not been saved. Do you want to exit?</string>
     <string name="iamutkarshtiwari_github_io_ananas_confirm">Confirm</string>
     <string name="iamutkarshtiwari_github_io_ananas_cancel">Cancel</string>
 
