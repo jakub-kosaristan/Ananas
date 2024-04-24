@@ -28,25 +28,24 @@ import iamutkarshtiwari.github.io.ananas.editimage.view.imagezoom.ImageViewTouch
 import io.reactivex.Single;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
-import io.reactivex.schedulers.Schedulers;
 
 
 public class CropFragment extends BaseEditFragment {
     public static final int INDEX = ModuleConfig.INDEX_CROP;
     public static final String TAG = CropFragment.class.getName();
 
-    private static int SELECTED_COLOR = R.color.white;
-    private static int UNSELECTED_COLOR = R.color.text_color_gray_3;
+    private final static int SELECTED_COLOR = R.color.white;
+    private final static int UNSELECTED_COLOR = R.color.text_color_gray_3;
 
     private View mainView;
     private LinearLayout ratioList;
     private CropImageView cropPanel;
     private OnLoadingDialogListener loadingDialogListener;
 
-    private CropRationClick cropRatioClick = new CropRationClick();
+    private final CropRationClick cropRatioClick = new CropRationClick();
     private TextView selectedTextView;
 
-    private CompositeDisposable disposables = new CompositeDisposable();
+    private final CompositeDisposable disposables = new CompositeDisposable();
 
     public static CropFragment newInstance() {
         return new CropFragment();
@@ -142,6 +141,7 @@ public class CropFragment extends BaseEditFragment {
 
     @Override
     public void onShow() {
+        ensureEditActivity();
         activity.mode = EditImageActivity.MODE_CROP;
 
         activity.mainImage.setVisibility(View.GONE);
