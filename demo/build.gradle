@@ -12,6 +12,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -27,6 +28,7 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:multidex:${androidx_multidex}"
     implementation "androidx.appcompat:appcompat:${androidx_version}"
     implementation "androidx.core:core-ktx:${core_ktx_version}"
     implementation "io.reactivex.rxjava2:rxjava:${rxjava_version}"
