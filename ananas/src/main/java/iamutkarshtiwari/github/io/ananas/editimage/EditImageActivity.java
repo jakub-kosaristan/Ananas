@@ -46,7 +46,6 @@ import iamutkarshtiwari.github.io.ananas.editimage.fragment.paint.PaintFragment;
 import iamutkarshtiwari.github.io.ananas.editimage.interfaces.OnLoadingDialogListener;
 import iamutkarshtiwari.github.io.ananas.editimage.interfaces.OnMainBitmapChangeListener;
 import iamutkarshtiwari.github.io.ananas.editimage.utils.BitmapUtils;
-import iamutkarshtiwari.github.io.ananas.editimage.utils.PermissionUtils;
 import iamutkarshtiwari.github.io.ananas.editimage.view.BrightnessView;
 import iamutkarshtiwari.github.io.ananas.editimage.view.CustomPaintView;
 import iamutkarshtiwari.github.io.ananas.editimage.view.CustomViewPager;
@@ -75,7 +74,6 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
     public static final int MODE_BEAUTY = 7;
     public static final int MODE_BRIGHTNESS = 8;
     public static final int MODE_SATURATION = 9;
-    private static final int PERMISSIONS_REQUEST_CODE = 110;
 
     public String sourceFilePath;
     public String outputFilePath;
@@ -215,41 +213,11 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
 
         redoUndoController = new RedoUndoController(this, findViewById(R.id.redo_undo_panel));
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            String[] requiredPermissionsAPI33 = new String[]{
-                    Manifest.permission.READ_MEDIA_IMAGES
-            };
-            if (!PermissionUtils.hasPermissions(this, requiredPermissionsAPI33)) {
-                ActivityCompat.requestPermissions(this, requiredPermissionsAPI33, PERMISSIONS_REQUEST_CODE);
-            }
-        }
-        else {
-            String[] requiredPermissions = new String[]{
-                    Manifest.permission.READ_EXTERNAL_STORAGE,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE
-            };
-            if (!PermissionUtils.hasPermissions(this, requiredPermissions)) {
-                ActivityCompat.requestPermissions(this, requiredPermissions, PERMISSIONS_REQUEST_CODE);
-            }
-        }
-
         loadImageFromFile(sourceFilePath);
     }
 
     private void setOnMainBitmapChangeListener(OnMainBitmapChangeListener listener) {
         onMainBitmapChangeListener = listener;
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode,
-                                           @NotNull String permissions[], @NotNull int[] grantResults) {
-        if (requestCode == PERMISSIONS_REQUEST_CODE) {
-            if (!(grantResults.length > 0
-                    && grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
-                finish();
-            }
-        }
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
     @Override
