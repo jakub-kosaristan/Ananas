@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.Surface;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.view.WindowInsets;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -120,7 +121,7 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_edit);
-        applyInsets(getWindow().getDecorView());
+        handleInsetsIfNeeded(getWindow().getDecorView());
         getData();
         initView();
     }
@@ -372,7 +373,7 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
         Toast.makeText(this, resId, Toast.LENGTH_SHORT).show();
     }
 
-    private void applyInsets(View decorView) {
+    private void handleInsetsIfNeeded(View decorView) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM) {
             decorView.setOnApplyWindowInsetsListener((view, insets) -> {
                 Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars()
@@ -380,9 +381,17 @@ public class EditImageActivity extends BaseActivity implements OnLoadingDialogLi
                         | WindowInsetsCompat.Type.ime()
                 );
 
-                view.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+                View statusBarOverlay = view.findViewById(R.id.statusBarOverlay);
+                ViewGroup.LayoutParams overlayParams = statusBarOverlay.getLayoutParams();
+                overlayParams.height = systemBars.top;
+                statusBarOverlay.setLayoutParams(overlayParams);
+                statusBarOverlay.setPadding(systemBars.left, 0, systemBars.right, 0);
+                view.setPadding(systemBars.left, 0, systemBars.right, systemBars.bottom);
                 return WindowInsets.CONSUMED;
             });
+        }
+        else {
+            findViewById(R.id.statusBarOverlay).setVisibility(View.GONE);
         }
     }
 
