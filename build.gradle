@@ -31,10 +31,9 @@ allprojects {
     }
 
     project.ext {
-        buildToolsVersion="33.0.0"
-        minSdkVersion=16
-        targetSdkVersion=33
-        compileSdkVersion=33
+        minSdkVersion=26
+        targetSdkVersion=35
+        compileSdkVersion=35
     }
 }
 
